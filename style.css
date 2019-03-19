@@ -500,6 +500,18 @@
     background-color: #414141;
 }
 
+.texto_curso .bck-ul1 li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+    width: 6px;
+    height: 6px;
+    background-color: #414141;
+}
+
+.texto_curso .bck-ul2 li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+    width: 6px;
+    height: 6px;
+    background-color: #FFEE00;
+}
+
 /*CAJAS*/
 
 .bck-box {
