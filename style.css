@@ -568,7 +568,7 @@
 */
 
 /*celda 1*/
-table td.bck-td-1 {
+.content table td.bck-td-1 {
 	background-color: #635F58;
     border-color: #fff;
     text-align: center;
