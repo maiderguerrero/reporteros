@@ -2,15 +2,15 @@
 (function (blink) {
 	'use strict';
 
-	var al_denteStyle = function () {
+	var reporterosStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	al_denteStyle.prototype = {
-		bodyClassName: 'content_type_clase_al_dente',
+	reporterosStyle.prototype = {
+		bodyClassName: 'content_type_clase_reporteros',
 		ckEditorStyles: {
-			name: 'al_dente',
+			name: 'reporteros',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -86,8 +86,8 @@
 		}
 	};
 
-	al_denteStyle.prototype = _.extend({}, new blink.theme.styles.basic(), al_denteStyle.prototype);
+	reporterosStyle.prototype = _.extend({}, new blink.theme.styles.basic(), reporterosStyle.prototype);
 
-	blink.theme.styles.al_dente = al_denteStyle;
+	blink.theme.styles.reporteros = reporterosStyle;
 
 })( blink );
