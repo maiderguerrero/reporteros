@@ -500,14 +500,19 @@
     background-color: #414141;
 }
 
-.texto_curso .bck-ul1 li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
-    width: 6px;
+/*LISTA DESORDENADA 1*/
+
+.content .bck-ul1 li:before,
+.cke_contents .bck-ul1 li:before {
+	width: 6px;
     height: 6px;
     background-color: #414141;
 }
 
-.texto_curso .bck-ul2 li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
-    width: 6px;
+/*LISTA DESORDENADA 2*/
+.content .bck-ul2 li:before,
+.cke_contents .bck-ul2 li:before {
+	width: 6px;
     height: 6px;
     background-color: #FFEE00;
 }
