@@ -15,6 +15,8 @@
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
+				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
