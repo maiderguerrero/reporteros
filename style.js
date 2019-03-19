@@ -26,6 +26,9 @@
 				{ name: 'Lista desordenada 1', element: 'ol', attributes: { 'class': 'bck-ul bck-ul1' } },
 				{ name: 'Lista desordenada 2', element: 'ol', attributes: { 'class': 'bck-ul bck-ul2' } },
 
+				{ name: 'Celda 1', element: 'ol', attributes: { 'class': 'bck-td-1' } },
+				{ name: 'Celda 2', element: 'ol', attributes: { 'class': 'bck-td-2' } },
+
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } }
