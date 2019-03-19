@@ -381,8 +381,10 @@
 	counter-reset: bck-li-counter;
 }
 
-.content .bck-ol li,
-.cke_contents .bck-ol li,
+/*LISTA ORDENADA 1*/
+
+.content .bck-ol1 li,
+.cke_contents .bck-ol1 li,
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
