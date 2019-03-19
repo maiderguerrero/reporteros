@@ -502,6 +502,12 @@
 
 /*LISTA DESORDENADA 1*/
 
+.content .bck-ul1 li,
+.cke_contents .bck-ul1 li {
+	font-weight: normal;
+	}
+
+
 .content .bck-ul1 li:before,
 .cke_contents .bck-ul1 li:before {
 	width: 6px;
@@ -510,6 +516,12 @@
 }
 
 /*LISTA DESORDENADA 2*/
+
+.content .bck-ul2 li,
+.cke_contents .bck-ul2 li {
+	font-weight: normal;
+	}
+
 .content .bck-ul2 li:before,
 .cke_contents .bck-ul2 li:before {
 	width: 6px;
