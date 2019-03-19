@@ -443,7 +443,8 @@
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-    content: counter(bck-li-counter, upper-alpha);
+    content: counter(bck-li-counter, lower-alpha) ".";
+    color: #000;
     }
 
 /*LISTA ORDENADA 4*/
@@ -456,7 +457,17 @@
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
 	content: counter(bck-li-counter, lower-alpha);
-    color: #000;
+    color: #fff;
+    background: #000;
+    padding: 0px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    /* margin-left: -5px; */
+    width: 24px;
+    text-align: center;
+    height: auto;
+    font-size: 1.7rem;
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
