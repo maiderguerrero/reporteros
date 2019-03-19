@@ -552,6 +552,7 @@
 
 
 /*TABLA POR DEFECTO*/
+/*
 
 .content table:not(.rf-tablegrid) td,
 .content table:not(.rf-tablegrid) th {
@@ -564,6 +565,28 @@
     border: 1px solid #F37731;
     margin-bottom: 20px;
 }
+*/
+
+/*celda 1*/
+table td.bck-td-1 {
+	background-color: #635F58;
+    border-color: #fff;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+
+/*celda 2*/
+table td.bck-td-2 {
+	background-color: #F6F5F1;
+    border-color: #fff;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+
 
 /* Icons */
 
