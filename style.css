@@ -344,16 +344,34 @@
 /*TITULO 1*/
 
 .bck-title1 {
-	color: #10a0c6;
+	color: #E83F56;
 	font-size: 2.4rem;
+	font-weight: bold;
        
 }
 
 /*TITULO 2*/
 
 .bck-title2 {
-    color: #f58220;
+    color: #602483;
     font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/*TITULO 3*/
+
+.bck-title3 {
+    color: #8FAB12;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/*TITULO 4*/
+
+.bck-title4 {
+    color: #5DBFC0;
+    font-size: 2.4rem;
+    font-weight: bold;
 }
 
 /* Lists */
