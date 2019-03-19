@@ -494,45 +494,10 @@
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
-.texto_curso ul li, .workspace ul li ul li, .cke_contents ul li {
-	font-weight: normal;
-}
-
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
     width: 6px;
     height: 6px;
     background-color: #414141;
-}
-
-/*LISTA DESORDENADA 1*/
-
-.texto_curso .bck-ul1 li,
-.content .bck-ul1 li,
-.cke_contents .bck-ul1 li {
-	font-weight: normal;
-	}
-
-
-.texto_curso .bck-ul1 li:before,
-.content .bck-ul1 li:before,
-.cke_contents .bck-ul1 li:before {
-	width: 6px;
-    height: 6px;
-    background-color: #414141;
-}
-
-/*LISTA DESORDENADA 2*/
-
-.content .bck-ul2 li,
-.cke_contents .bck-ul2 li {
-	font-weight: normal;
-	}
-
-.content .bck-ul2 li:before,
-.cke_contents .bck-ul2 li:before {
-	width: 6px;
-    height: 6px;
-    background-color: #FFEE00;
 }
 
 /*CAJAS*/
