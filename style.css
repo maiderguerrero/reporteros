@@ -433,17 +433,26 @@
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter);
-    color: #000;
-    background-color: #FFEE00;
+    color: #333;
     position: absolute;
-    border-radius: 100%;
+    background: rgba(255,238,0,0);
+    background: -moz-linear-gradient(left, rgba(255,238,0,0) 0%, rgba(255,238,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,238,0,0)), color-stop(100%, rgba(255,238,0,1)));
+    background: -webkit-linear-gradient(left, rgba(255,238,0,0) 0%, rgba(255,238,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,238,0,0) 0%, rgba(255,238,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,238,0,0) 0%, rgba(255,238,0,1) 100%);
+    background: linear-gradient(to right, rgba(255,238,0,0) 0%, rgba(255,238,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffee00', endColorstr='#ffee00', GradientType=1 );
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 0px;
+    left: -6px;
     top: 0px;
-    width: 24px;
+    width: 30px;
     text-align: center;
     height: auto;
     font-size: 1.9rem;
-}
+
 }
 
 /*LISTA ORDENADA 3*/
@@ -470,7 +479,7 @@
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
 	content: counter(bck-li-counter, lower-alpha);
-    color: #fff;
+    color: #333;
     background: #000;
     padding: 0px;
     border-radius: 100%;
