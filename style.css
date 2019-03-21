@@ -512,12 +512,14 @@
 
 /*LISTA DESORDENADA 1*/
 
+
 .texto_curso .bck-ul1 li:before, 
 .workspace .bck-ul1 li ul li:before, 
 .cke_contents .bck-ul1 li:before {
     width: 6px;
     height: 6px;
     background-color: #414141;
+    margin-left: -20px;
 }
 
 /*LISTA DESORDENADA 2*/
@@ -529,6 +531,7 @@
     height: 6px;
     background-color: #fff;
     border: 1px solid #414141;
+    margin-left: -20px;
 }
 
 /*CAJAS*/
@@ -579,6 +582,8 @@
     margin-bottom: 20px;
 }
 */
+
+/*
 
 /*Celda 1*/
 
