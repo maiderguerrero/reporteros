@@ -554,6 +554,17 @@
 	margin-bottom: 0;
 }
 
+/* Caja 1 */
+.bck-box.bck-box1 {
+	margin: 10px;
+	border: 2px solid transparent;
+	background: #EDF0ED;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+}
+
+
 /* Caja 2 */
 .bck-box.bck-box2 {
 	margin: 10px;
