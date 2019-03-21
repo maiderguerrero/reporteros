@@ -592,7 +592,7 @@
 
 /* Caja 3 */
 .bck-box.bck-box3 {
-	margin: 10px;
+	margin: 10px 10px 20px 10px;
 	border: 2px solid transparent;
 	background: #F3F1E9;
 	-webkit-box-shadow: 0px 0px 20px 0 #F4F4F4;
