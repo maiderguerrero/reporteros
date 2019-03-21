@@ -610,6 +610,7 @@
     background: #635F58;
     color: #fff;
     font-weight: 600;
+    font-style: 2.1rem;
 }
 
 /*Celda 2*/
@@ -619,6 +620,7 @@
     padding: 10px;
     background: #F6F5F1;
     font-weight: 600;
+    font-size: 2.1rem;
 }
 
 /*Celda 3*/
@@ -629,25 +631,12 @@
     background: #fff;
 }
 
+/*Celda 4*/
 
-/*celda 1*/
-.content table td.bck-td-1 {
-	background-color: #635F58;
-    border-color: #fff;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 2.1rem;
-}
-
-/*celda 2*/
-table td.bck-td-2 {
-	background-color: #F6F5F1;
-    border-color: #fff;
-    text-align: center;
-    color: #333;
-    font-weight: bold;
-    font-size: 2.1rem;
+.content table:not(.rf-tablegrid) td.bck-td-4 {
+    border: 3px dotted #fff;
+    padding: 10px;
+    background: #BCDCE3;
 }
 
 
