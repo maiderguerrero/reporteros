@@ -604,6 +604,14 @@
     font-weight: 600;
 }
 
+/*Celda 3*/
+
+.content table:not(.rf-tablegrid) td.bck-td-3 {
+    border: 1px dashed #333;
+    padding: 10px;
+    background: #fff;
+}
+
 
 /*celda 1*/
 .content table td.bck-td-1 {
