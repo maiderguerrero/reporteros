@@ -32,6 +32,10 @@
 				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3' } },
 				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4' } },
 
+				{ name: 'Icono Writing', element: 'span', attributes: { 'class': 'icon icon-write' } },
+				{ name: 'Icono Dados', element: 'span', attributes: { 'class': 'icon icon-dados' } },
+				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
+
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } }
