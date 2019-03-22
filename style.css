@@ -50,16 +50,32 @@
 		margin-bottom: 0;
 	}
 
+	/*
 	.content_type_clase_reporteros #actividad .content .header .title {
 		margin: -20px 3px 19px;
     	background: #fff;
     	padding: 20px 97px;
 	}
+	*/
+
+	.content_type_clase_reporteros #actividad .content .header .title {
+    margin: -40px 0px 40px 0px;
+    background: background: rgba(251,184,51,1);
+	background: -moz-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,184,51,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb833', endColorstr='#ffffff', GradientType=0 );
+    padding: 40px 97px;
+}
 
 	.content_type_clase_reporteros #actividad .content .slide-concatenate .header .title {
 		display: none;
 	}
 
+	/*
 	.content_type_clase_reporteros #actividad .content .header .title h3 {
 		position: relative;
 		display: block;
@@ -71,6 +87,20 @@
 		font-weight: bold;
 		text-align: left;
 	}
+	*/
+.content_type_clase_reporteros #actividad .content .header .title h3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px dotted #333;
+}
+
 
 	.content_type_clase_reporteros #actividad .content .header .title h3 span {
 		float: left;
@@ -340,6 +370,45 @@
 	}
 
 /**/
+
+/*TOC*/
+
+.btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+    color: #fff;
+    background-color: #FBB833;
+    border-color: transparent;
+    opacity: 1;
+}
+
+#indice .units ul li {
+    padding: 0;
+    background: #FBB833;
+}
+
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: background: rgba(251,184,51,1);
+    background: -moz-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,184,51,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb833', endColorstr='#ffffff', GradientType=0 );
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: #333;
+}
+
+#indice .units ul li a .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
 
 /*TITULO 1*/
 
