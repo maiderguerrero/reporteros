@@ -620,6 +620,13 @@
     font-weight: 600;
 }
 
+/* Caja 5 */
+.bck-box.bck-box5 {
+	margin: 10px 10px 30px 10px;
+	border: 2px solid transparent;
+	background: #fff;
+	border-radius: 10px;
+}
 
 
 /*TABLA POR DEFECTO*/
