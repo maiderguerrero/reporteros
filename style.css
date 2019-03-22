@@ -557,6 +557,7 @@
 
 .bck-box {
 	margin: 10px;
+    border: 2px solid #8b9c23;
     border-radius: 0px;
     background: #fff;
     padding: 6px 20px;
@@ -607,10 +608,7 @@
 /* Caja 4 */
 .bck-box.bck-box4 {
 	margin: 10px 10px 30px 10px;
-	border-left: 2px solid #333;
-	border-bottom: : 2px solid #333;
-	border-right: : 4px solid #333;
-	border-top: : 4px solid #333;
+	border: 2px solid #333;
 	background: #BCDCE3;
 }
 
