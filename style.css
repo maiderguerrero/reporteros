@@ -262,8 +262,8 @@
 	.slider-indicators li:hover,
 	.edit .slider-indicators .concat.active,
 	.slider-indicators .active {
-	    background-color: #8b9c23;
-	    color: #ffffff;
+	    background-color: #fff;
+	    color: #333;
 	}
 
 	.edit .slider-indicators .concat.active:before {
