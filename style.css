@@ -371,7 +371,7 @@
 
 /**/
 
-/*TOC*/
+/*TOC PRUEBA*/
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
     color: #fff;
@@ -385,16 +385,7 @@
     background: #FBB833;
 }
 
-#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-    background: background: rgba(251,184,51,1);
-    background: -moz-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,184,51,1)), color-stop(100%, rgba(255,255,255,1)));
-    background: -webkit-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
-    background: -o-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
-    background: -ms-linear-gradient(top, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(251,184,51,1) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb833', endColorstr='#ffffff', GradientType=0 );
-}
+
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: #333;
