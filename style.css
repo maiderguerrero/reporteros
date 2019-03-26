@@ -749,6 +749,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 }
 
 
+/*Énfasis*/
+.bck-enfasis .bck-enfasis-1 {
+	color: #E83F56;
+}
+
+
 /* Icons */
 
 #actividad .player.audio {
