@@ -508,7 +508,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     border-radius: 0px;
     background: #fff;
     color: #333;
-    font-size: 22px;
+    font-size: 1.9rem;
     font-weight: bold;
     text-align: center;
     line-height: inherit;
