@@ -122,6 +122,7 @@
 	.content_type_clase_reporteros #actividad .texto_curso li,
 	.content_type_clase_reporteros #actividad .workspace ul li li {
 		margin-bottom: 10px;
+		line-height: inherit;
 	}
 
 	#actividad .class_slide {
