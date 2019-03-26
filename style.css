@@ -553,6 +553,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 .content .bck-ol3 li,
 .cke_contents .bck-ol3 li {
 	font-weight: normal;
+	padding-left: 75px;
 	}
 
 
@@ -560,10 +561,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 .cke_contents .bck-ol3 li:before {
     content: counter(bck-li-counter, lower-alpha) ".";
     color: #000;
-    left: 20px;
-    position: relative;
+    left: 50px;
+    position: absolute;
     margin-right: 30px;
     top: 0;
+    font-size: 1.8rem;
+
     }
 
 /*LISTA ORDENADA 4*/
