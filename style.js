@@ -19,6 +19,9 @@
 				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
 				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
 
+				{ name: 'Énfasis Rojo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
+				{ name: 'Énfasis Azul', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
+
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
 				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
