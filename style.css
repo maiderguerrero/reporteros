@@ -520,7 +520,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 .content .bck-ol2 li,
 .cke_contents .bck-ol2 li {
 	font-weight: bold;
-	padding-left: 45px;
+	padding-left: 60px;
 	}
 
 .content .bck-ol2 li:before,
@@ -538,10 +538,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffee00', endColorstr='#ffee00', GradientType=1 );
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 0px 20px 0px 30px;
+    padding: 0px 0px 0px 20px;
     left: -15px;
     top: 0px;
-    width: 30px;
+    width: 65px;
     text-align: center;
     height: auto;
     font-size: 1.9rem;
