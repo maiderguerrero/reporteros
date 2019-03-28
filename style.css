@@ -1,4 +1,16 @@
 
+/*fuentes*/
+@font-face {
+	font-family: 'Conv_comic_zine_ot';
+	src: url('fonts/comic_zine_ot.eot');
+	src: local('☺'), 
+	url('fonts/comic_zine_ot.woff') format('woff'), 
+	url('fonts/comic_zine_ot.ttf') format('truetype'), 
+	url('fonts/comic_zine_ot.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 /* General */
 
@@ -409,6 +421,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 	font-size: 3rem;
 	font-weight: bold;
 	margin-bottom: 30px;
+	font-family: 'Conv_comic_zine_ot';
        
 }
 
@@ -419,6 +432,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Conv_comic_zine_ot';
 }
 
 /*TITULO 3*/
@@ -428,6 +442,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Conv_comic_zine_ot';
 }
 
 /*TITULO 4*/
@@ -437,6 +452,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Conv_comic_zine_ot';
 }
 
 /*TITULO 5*/
