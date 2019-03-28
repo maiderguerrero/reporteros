@@ -418,8 +418,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 
 .bck-title1 {
 	color: #E83F56;
-	font-size: 3rem;
-	font-weight: bold;
+	font-size: 4rem;
 	margin-bottom: 30px;
 	font-family: 'Conv_comic_zine_ot';
        
@@ -429,8 +428,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 
 .bck-title2 {
     color: #602483;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4rem;
     margin-bottom: 30px;
     font-family: 'Conv_comic_zine_ot';
 }
@@ -439,8 +437,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 
 .bck-title3 {
     color: #8FAB12;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4rem;
     margin-bottom: 30px;
     font-family: 'Conv_comic_zine_ot';
 }
@@ -449,8 +446,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 
 .bck-title4 {
     color: #5DBFC0;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4rem;
     margin-bottom: 30px;
     font-family: 'Conv_comic_zine_ot';
 }
