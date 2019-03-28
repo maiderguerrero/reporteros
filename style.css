@@ -391,6 +391,7 @@
     background-color: #FBB833;
     border-color: transparent;
     opacity: 1;
+    border-radius: 0px;
 }
 
 #indice .units ul li {
