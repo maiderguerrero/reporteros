@@ -305,7 +305,7 @@
 	.slider-indicators li:hover,
 	.edit .slider-indicators .concat.active,
 	.slider-indicators .active {
-	    background-color: #fff;
+	    background-color: #FFE4B8;
 	    color: #333;
 	}
 
@@ -338,11 +338,11 @@
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		  background: #c8c8c8;
+		  background: #FFE4B8;
     	  color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #fff;
+		background: #FFE4B8;
    		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
