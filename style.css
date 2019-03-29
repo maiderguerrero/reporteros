@@ -384,7 +384,7 @@
 
 /**/
 
-/*TOC PRUEBA*/
+/*TOC*/
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
     color: #fff;
@@ -425,6 +425,16 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     line-height: 18px;
     display: block;
 }
+
+/*botón corregir*/
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+    border-radius: 0px;
+}
+/**/
 
 
 /*TITULO 1*/
