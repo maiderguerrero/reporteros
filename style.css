@@ -519,7 +519,6 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
-	line-height: 1.1rem;
 	font-weight: bold;
 }
 
