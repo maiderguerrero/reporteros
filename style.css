@@ -515,7 +515,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
-	padding-left: 28px;
+	padding-left: 35px;
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
@@ -532,7 +532,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     top: 0px;
     left: 0px;
     display: inline-block;
-    width: 20px;
+    width: 30px;
     height: 0px;
     -webkit-box-shadow: 0px;
     -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
