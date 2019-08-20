@@ -162,6 +162,19 @@
     	padding: 10px 4px;
 	}
 
+	/*Crucigrama*/
+	.slide.crosswords-puzzle .enunciados {
+    	border: 2px solid #dedede;
+    	-webkit-border-radius: 7px;
+    	-moz-border-radius: 7px;
+    	border-radius: 7px;
+    	display: inline-block;
+    	width: 350px;
+    	padding: 1rem 3rem;
+    	line-height: 2.1rem;
+    	margin-top: 20px;
+}
+
 	/*señalar respuesta*/
 
 	#actividad .workspace.chooseblanks .inline-answer a {
@@ -266,6 +279,161 @@
 		right: 15px;
 	}
 /**/
+
+/*TAGS*/
+
+/*Azul oscuro*/
+
+.unittag_azul_oscuro_reporteros #actividad .content .header .title {   
+    background: background: rgba(63,144,207,1);
+    background: -moz-linear-gradient(top, rgba(63,144,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(63,144,207,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(63,144,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(63,144,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(63,144,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(63,144,207,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5C9AD5', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_azul_oscuro_reporteros .navbar-bottom {
+    background: #5C9AD5;
+}
+
+.unittag_azul_oscuro_reporteros #bottom-navigator li.active {
+    background: #b3d2ef;
+}
+
+.unittag_azul_oscuro_reporteros #bottom-navigator li:hover {
+    background: #b3d2ef;
+}
+
+/*Verde*/
+
+.unittag_verde_reporteros #actividad .content .header .title {   
+    background: background: rgba(164,200,74,1);
+    background: -moz-linear-gradient(top, rgba(164,200,74,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,200,74,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(164,200,74,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(164,200,74,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(164,200,74,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(164,200,74,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A4C84A', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_verde_reporteros .navbar-bottom {
+    background: #A4C84A;
+}
+
+.unittag_verde_reporteros #bottom-navigator li.active {
+    background: #d1f183;
+}
+
+.unittag_verde_reporteros #bottom-navigator li:hover {
+    background: #d1f183;
+}
+
+/*Azul claro*/
+
+.unittag_azul_claro_reporteros #actividad .content .header .title {   
+    background: background: rgba(101,195,220,1);
+    background: -moz-linear-gradient(top, rgba(101,195,220,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(101,195,220,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(101,195,220,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(101,195,220,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(101,195,220,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(101,195,220,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65C3DC', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_azul_claro_reporteros .navbar-bottom {
+    background: #65C3DC;
+}
+
+.unittag_azul_claro_reporteros #bottom-navigator li.active {
+    background: #bcecf9;
+}
+
+.unittag_azul_claro_reporteros #bottom-navigator li:hover {
+    background: #bcecf9;
+}
+
+/*Morado*/
+
+.unittag_morado_reporteros #actividad .content .header .title {   
+    background: background: rgba(122,117,183,1);
+    background: -moz-linear-gradient(top, rgba(122,117,183,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(122,117,183,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(122,117,183,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(122,117,183,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(122,117,183,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(122,117,183,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7A75B7', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_morado_reporteros .navbar-bottom {
+    background: #7A75B7;
+}
+
+.unittag_morado_reporteros #bottom-navigator li.active {
+    background: #c9c5f7;
+}
+
+.unittag_morado_reporteros #bottom-navigator li:hover {
+    background: #c9c5f7;
+}
+
+/*Amarillo*/
+
+.unittag_amarillo_reporteros #actividad .content .header .title {   
+    background: background: rgba(255,214,0,1);
+    background: -moz-linear-gradient(top, rgba(255,214,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,214,0,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,214,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,214,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,214,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,214,0,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD600', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_amarillo_reporteros .navbar-bottom {
+    background: #FFD600;
+}
+
+.unittag_amarillo_reporteros #bottom-navigator li.active {
+    background: #ffea7a;
+}
+
+.unittag_amarillo_reporteros #bottom-navigator li:hover {
+    background: #ffea7a;
+}
+
+/*Aguamarina*/
+
+.unittag_aguamarina_reporteros #actividad .content .header .title {   
+    background: background: rgba(0,166,149,1);
+    background: -moz-linear-gradient(top, rgba(0,166,149,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,166,149,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(0,166,149,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,166,149,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,166,149,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,166,149,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00A695', endColorstr='#ffffff', GradientType=0 );
+}
+
+.unittag_aguamarina_reporteros .navbar-bottom {
+    background: #00A695;
+}
+
+.unittag_aguamarina_reporteros #bottom-navigator li.active {
+    background: #48f1df;
+}
+
+.unittag_aguamarina_reporteros #bottom-navigator li:hover {
+    background: #48f1df;
+}
+
+/**/
+
 
 /* Navbar */
 	.navbar-bottom {
