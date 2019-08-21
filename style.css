@@ -773,26 +773,26 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 
 /*LISTA ORDENADA 4*/
 
-.content .bck-ol4 li,
+.content .bck-ol4 li, 
 .cke_contents .bck-ol4 li {
-	font-weight: normal;
-	}
+    font-weight: normal;
+    padding-left: 85px;
+}
 
-.content .bck-ol4 li:before,
+.content .bck-ol4 li:before, 
 .cke_contents .bck-ol4 li:before {
-	content: counter(bck-li-counter, lower-alpha);
+    content: counter(bck-li-counter, lower-alpha);
     color: #fff;
     background: #333;
     padding: 0px;
     border-radius: 100%;
-    position: relative;
+    position: absolute;
     top: 0px;
     width: 24px;
     text-align: center;
     height: auto;
     font-size: 1.7rem;
-    left: 20px;
-    margin-right: 30px;
+    left: 55px;
 }
 
 /*LISTA DESORDENADA 1*/
