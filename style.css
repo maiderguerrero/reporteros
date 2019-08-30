@@ -697,7 +697,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     content: counter(bck-li-counter) ".";
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: -27px;
     display: inline-block;
     width: 30px;
     height: 0px;
